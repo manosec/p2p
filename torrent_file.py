@@ -11,7 +11,7 @@ def sha1_hash(content):
     return hashlib.sha1(content).hexdigest()
 
 # Load the torrent file
-file_path = 'torrents/ubuntu-24.04-desktop-amd64.iso.torrent'
+file_path = 'torrents/ubuntu-22.04.4-desktop-amd64.iso.torrent'
 with open(file_path, 'rb') as file:
     torrent_content = decode(file.read())
 
